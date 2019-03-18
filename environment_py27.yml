@@ -1,0 +1,31 @@
+name: mir_ros_py27
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python=2.7
+    - numpy
+    - sympy
+    - matplotlib
+    - jupyter
+    - nb_conda
+    - opencv3
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - eventlet
+    - flask-socketio
+    - seaborn
+    - pandas
+    - ffmpeg
+    - imageio
+    - pip:
+        - moviepy
+        - tensorflow==1.2.1
+        - socketIO-client
+        - transforms3d
+        - pyqtgraph
+        - rospkg
+        - catkin_pkg 
