@@ -50,7 +50,7 @@ $ conda env create -f environment_py35.yml
 
 ### Using `mir_ros_py27/py35`
 ```
-$ conda activate mir_ros
+$ conda activate mir_ros_py27
 ```
 Then you will see a new prompt as below.
 ```
