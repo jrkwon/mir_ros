@@ -14,6 +14,8 @@ sudo rosdep init
 rosdep update
 # install additional controllers for vehicles and gazebo
 sudo apt install -y ros-kinetic-controller-manager
+sudo apt install -y ros-kinetic-ros-controllers
+sudo apt install -y ros-kinetic-joint-state-controller
 sudo apt install -y ros-kinetic-gazebo-ros-control
 sudo apt install -y ros-kinetic-position-controllers
 sudo apt install -y ros-kinetic-velocity-controllers 
