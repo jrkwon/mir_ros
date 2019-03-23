@@ -20,6 +20,7 @@ sudo apt install -y ros-kinetic-gazebo-ros-control
 sudo apt install -y ros-kinetic-position-controllers
 sudo apt install -y ros-kinetic-velocity-controllers 
 sudo apt install -y ros-kinetic-velodyne-pointcloud
+sudo apt install -y ros-kinetic-joy ros-kinetic-joystick-drivers 
 # env setup
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 # install building packages
