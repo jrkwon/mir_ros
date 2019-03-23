@@ -12,6 +12,12 @@ sudo apt install -y ros-kinetic-desktop-full
 # init rosdep
 sudo rosdep init
 rosdep update
+# install additional controllers for vehicles and gazebo
+sudo apt install -y ros-kinetic-controller-manager
+sudo apt install -y ros-kinetic-gazebo-ros-control
+sudo apt install -y ros-kinetic-position-controllers
+sudo apt install -y ros-kinetic-velocity-controllers 
+sudo apt install -y ros-kinetic-velodyne-pointcloud
 # env setup
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 # install building packages
