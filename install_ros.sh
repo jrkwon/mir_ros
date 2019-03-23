@@ -14,7 +14,6 @@ sudo rosdep init
 rosdep update
 # env setup
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
-echo "unset PYTHONPATH" >> ~/.bashrc 
 # install building packages
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 
